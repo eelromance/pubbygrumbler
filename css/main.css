@@ -1,17 +1,18 @@
 body {
-background-color: lightpink;
+background-color: #FFA498;
 font-family: Helvetica, sans-serif;
 padding: 2em;
 margin:0 auto;
 }
 
 h1 {
-  color: white;
+  color: #FFE8E5;
   font-size: 5vw;
   margin: 0 auto;
 }
 
 h2 {
+  color: #7F524C;
   font-size: 2.5vw;
   margin: 0 auto;
   padding-bottom: 1em;
@@ -66,5 +67,6 @@ path {
 
 footer {
   padding: 1em;
-  color: white;
+  color: #FFE8E5;
+  text-transform: lowercase;
 }
