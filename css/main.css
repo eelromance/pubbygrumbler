@@ -1,21 +1,42 @@
 body {
+height: 100%;
+width: 100%;
 background-color: #FFA498;
 font-family: Helvetica, sans-serif;
-padding: 2em;
+padding: 0ox;
 margin:0 auto;
 }
 
 h1 {
   color: #FFE8E5;
-  font-size: 5vw;
+  font-size: 8vw;
   margin: 0 auto;
+  padding-top: 0.25em;
+  padding-left: 0.5em;
 }
 
 h2 {
   color: #7F524C;
-  font-size: 2.5vw;
+  font-size: 4vw;
   margin: 0 auto;
-  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-bottom: 0em;
+}
+
+#thanks {
+  border-radius: 0px 0px 10px 10px;
+}
+
+center {
+  font-family: Helvetica, sans-serif;
+  color: #FFE8E5;
+  font-size: 8vw;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+footer {
+  background-color: #7F524C;
 }
 
 img {
@@ -23,8 +44,13 @@ img {
   display: block;
 }
 
-svg {
+#snrr {
+  width: 100%;
+  height: 100%;
+}
 
+#melodies {
+  background-color: #737B91;
 }
 
 path {
@@ -33,24 +59,29 @@ path {
 }
 
 .grid-container {
+  height: 100%;
+  width: 100%;
   display: grid;
-  grid-gap: 2em;
+  grid-gap: 0vw;
   grid-template-columns: 1fr;
-  grid-auto-rows: repeat(10, 667px);
+  grid-auto-rows: repeat(11, 667px);
   grid-auto-flow: row;
   margin: 0px;
 }
 
 .img-container {
+  height: 100%;
+  width: 100%;
   position: relative;
   top: 0px;
   left: 0px;
   z-index: 1;
+  grid-column: 1;
 }
 
 .bgimg {
-    width: 95vw;
-    border-radius: 10px;
+    width: 100vw;
+    border-radius: 0px;
 }
 
 .grumblezone {
@@ -66,6 +97,7 @@ path {
 }
 
 footer {
+  background-color: #737B91;
   padding: 1em;
   color: #FFE8E5;
   text-transform: lowercase;
